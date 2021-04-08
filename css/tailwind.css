@@ -1,0 +1,24 @@
+.hello{
+    color:blue;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    @apply text-4xl text-blue-700 align-text-bottom
+}
+a{
+    @apply text-blue-700 underline
+}
+.btn{
+    @apply px-4 py-2 font-bold rounded
+}
+.btn-blue{
+    @apply bg-blue-500 text-white
+}
+.btn-yellow{
+    @apply bg-yellow-500 text-white 
+}
